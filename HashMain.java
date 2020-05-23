@@ -5,6 +5,7 @@ public class HashMain {
         hash.put(8, "B");
         hash.put(11, "C");
         hash.put(6, "A+");
+        hash.remove(60);
         System.out.println(hash.get(10));
     }
 }
