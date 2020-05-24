@@ -1,9 +1,19 @@
 public class HashMain {
     public static void main(String[] args) {
-        int[] items = {1, 7, 5, 9, 2, 12, 3};
-        HashTableExercise mostF = new HashTableExercise(items);
-        var mostFre=mostF.countPairsWithDiff(2);
-        System.out.println(mostFre);
+        HashMap hash = new HashMap(3);
+        hash.put(4, "Francis");
+        hash.put(5, "Hassan");
+        hash.put(8, "Hass");
+        hash.remove(4);
+        // System.out.println(hash.get(4));
+        System.out.println(hash.size());
+
+
+
+        // int[] items = {1, 7, 5, 9, 2, 12, 3};
+        // HashTableExercise mostF = new HashTableExercise(items);
+        // var mostFre=mostF.countPairsWithDiff(2);
+        // System.out.println(mostFre);
 
 
 
